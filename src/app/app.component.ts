@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { LoginComponent } from './login.component';
 
 export class User {
   id: number;
@@ -8,12 +9,8 @@ export class User {
 @Component({
   selector: 'my-app',
   template: `
-    <h1>{{title}}</h1>
-    <h2>{{user.name}} details!</h2>
-    <div><label>id: </label>{{user.id}}</div>
-    <div>
-      <label>name: </label>
-      <input [(ngModel)]="user.name" placeholder="name">
+    <div class="app-container">
+      <login></login>
     </div>
     `
 })
@@ -25,4 +22,3 @@ export class AppComponent {
     name: 'Jambon'
   };
 }
-
