@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Tungsten_sb;
+    src: url(fonts/Tungsten-SB.otf);
+}
+
+@font-face {
+    font-family: Tungsten_m;
+    src: url(fonts/Tungsten-M.otf);
+}
+
 h1 {
   color: #053594;
   font-family: Arial, Helvetica, sans-serif;
@@ -9,7 +19,9 @@ p {
 }
 
 .app-container {
-
+  width: 80vw;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*LOGIN*/
@@ -26,6 +38,17 @@ p {
   color: #053594;
   padding: 25px;
   margin-bottom: 50px;
+}
+
+.login-title__text {
+  font-size: 60px;
+  font-family: Tungsten_sb;
+  color: #053594;
+}
+
+.login-title__text-special {
+  font-size: 36px;
+  font-family: Tungsten_m;
 }
 
 .login__form {
@@ -71,5 +94,60 @@ p {
   text-align: center;
   margin: 10px 0;
   border-radius: 0;
+  color: #053594;
+}
+
+/*NAVIGATION*/
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  border-bottom: 1px solid #F1F6FE;
+}
+
+.navigation-logo {
+  margin-right: 200px;
+  font-size: 60px;
+  font-family: Tungsten_sb;
+  color: #053594;
+}
+
+.navigation-logo-special {
+  font-size: 36px;
+  font-family: Tungsten_m;
+}
+
+.navigation-logo:hover {
+  text-decoration: none;
+  color: none;
+}
+
+.navigation-link {
+  margin: 45px 20px;
+  color: #053594;
+}
+
+.navigation-link:hover {
+  text-decoration: none;
+  color: none;
+}
+
+.navigation__profile {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+
+.navigation__profile-picture {
+  height: 40px;
+  width: 40px;
+  background-color: #F1F6FE;
+  border-radius: 2px;
+  margin: 35px 0 35px 30px;
+}
+
+.navigation__profile-disconnect {
+  margin: 45px 0 45px 20px;
   color: #053594;
 }

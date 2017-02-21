@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   template: `
     <div class="login">
       <div class="login-title">
-        <h1 class="login-title__text">Colibrique v2</h1>
+        <h1 class="login-title__text">colibrique <span class="login-title__text-special">v2</span></h1>
       </div>
       <form class="login__form">
         <div class="login__form-instructions">Veuillez vous connecter</div>
@@ -15,7 +15,7 @@ import { Component } from '@angular/core';
           <input type="checkbox">
           <p class="login__form-remember-text">Se souvenir de moi</p>
         </div>
-        <input routerLink="/login" routerLinkActive="active" type="submit" class="login__form-btn btn">
+        <input routerLink="/home" routerLinkActive="active" type="submit" class="login__form-btn btn">
       </form>
     </div>
     `

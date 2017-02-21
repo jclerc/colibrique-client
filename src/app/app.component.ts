@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
 import { LoginComponent } from './login.component';
+import { NavigationComponent }  from './navigation.component';
 
 export class User {
-  id: number;
-  name: string;
 }
 
 @Component({
-  selector: 'my-app',
+  selector: 'app',
   template: `
     <div class="app-container">
       <router-outlet></router-outlet>
@@ -16,9 +15,4 @@ export class User {
 })
 
 export class AppComponent {
-  title = 'Tour of users';
-  user: User = {
-    id: 1,
-    name: 'Jambon'
-  };
 }

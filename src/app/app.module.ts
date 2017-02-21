@@ -5,9 +5,12 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent }  from './app.component';
 import { LoginComponent }  from './login.component';
+import { NavigationComponent }  from './navigation.component';
+import { HomeComponent }  from './home.component';
 
 const appRoutes: Routes = [
   { path: 'login', component: LoginComponent },
+  { path: 'home', component: HomeComponent },
   // { path: 'hero/:id',      component: HeroDetailComponent },
   {
     path: 'login',
@@ -29,7 +32,9 @@ const appRoutes: Routes = [
   ],
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    HomeComponent,
+    NavigationComponent
   ],
   bootstrap: [ AppComponent ]
 })
