@@ -10,7 +10,7 @@ export class User {
   selector: 'my-app',
   template: `
     <div class="app-container">
-      <login></login>
+      <router-outlet></router-outlet>
     </div>
     `
 })
