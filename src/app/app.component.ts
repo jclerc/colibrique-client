@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { LoginComponent } from './login.component';
-import { NavigationComponent }  from './navigation.component';
 
 export class User {
 }

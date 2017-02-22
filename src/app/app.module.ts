@@ -6,6 +6,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent }  from './app.component';
 import { LoginComponent }  from './login.component';
 import { NavigationComponent }  from './navigation.component';
+import { PostAnnonceComponent }  from './post-annonce.component';
 import { HomeComponent }  from './home.component';
 
 const appRoutes: Routes = [
@@ -34,7 +35,8 @@ const appRoutes: Routes = [
     AppComponent,
     LoginComponent,
     HomeComponent,
-    NavigationComponent
+    NavigationComponent,
+    PostAnnonceComponent
   ],
   bootstrap: [ AppComponent ]
 })
