@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
     <post-annonce></post-annonce>
     <div class="news">
       <post></post>
+      <post-homework></post-homework>
     </div>
     `
 })

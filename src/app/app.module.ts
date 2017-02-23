@@ -14,6 +14,7 @@ import { PlanningComponent }  from './planning.component';
 import { HomeworkComponent }  from './homework.component';
 import { NotesComponent }  from './notes.component';
 import { MessagingComponent }  from './messaging.component';
+import { PostHomeworkComponent }  from './post-homework.component';
 
 const appRoutes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -53,7 +54,8 @@ const appRoutes: Routes = [
     PlanningComponent,
     HomeworkComponent,
     NotesComponent,
-    MessagingComponent
+    MessagingComponent,
+    PostHomeworkComponent
   ],
   bootstrap: [ AppComponent ]
 })

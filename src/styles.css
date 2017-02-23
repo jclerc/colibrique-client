@@ -228,14 +228,17 @@ a:hover, a:active, a:focus {
 
 .news {
   margin-top: 50px;
+  display: flex;
+  align-items: flex-start;
 }
 
 /* POSTS */
 
 .post-container {
-  width: 60%;
   color: #053594;
   padding: 10px 0;
+  margin-right: 100px;
+  flex-grow: 1;
 }
 
 .post-recent-legend {
@@ -263,6 +266,7 @@ a:hover, a:active, a:focus {
   background-color: #F1F6FE;
   border-radius: 2px;
   margin: 10px;
+  align-self: flex-start;
 }
 
 .post-profile-infos {
@@ -290,4 +294,25 @@ a:hover, a:active, a:focus {
 
 .post-item-comment-content {
   padding: 0px 40px;
+}
+
+/* POST HOMEWORK */
+
+.post-homework-container {
+  color: #053594;
+  padding: 10px 0;
+  flex-shrink: 1;
+  width: 450px;
+}
+
+.post-item-homework {
+  background-color: #F1F6FE;
+}
+
+.post-homework-profile-modifier {
+  color: black;
+}
+
+.post-homework-picture {
+  background-color: black;
 }
