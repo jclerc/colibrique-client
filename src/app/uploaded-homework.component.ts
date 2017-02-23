@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'uploaded-homework',
   template: `
-          <div class="post-container">
+          <div class="post-container no-margin">
             <div class="post-recent-legend uploaded-legend-modifier">
                <p>Les devoirs que vous avez ajouté</p>
             </div>

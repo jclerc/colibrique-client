@@ -107,7 +107,7 @@ a:hover, a:active, a:focus {
   flex-direction: row;
   margin-top: 20px;
   border-bottom: 1px solid #F1F6FE;
-  display: flex;;;;;;;;
+  display: flex;
 }
 
 .navigation-logo {
@@ -130,7 +130,7 @@ a:hover, a:active, a:focus {
 .navigation__profile {
   margin-left: auto;
   display: flex;
-  flex-direction: row;;;
+  flex-direction: row;
 }
 
 .navigation__profile-picture {
@@ -245,6 +245,10 @@ a:hover, a:active, a:focus {
   margin-right: 100px;
 }
 
+.no-margin {
+  margin: 0!important;
+}
+
 .post-recent-legend {
   display: flex;
   margin-bottom: 20px;
@@ -257,6 +261,7 @@ a:hover, a:active, a:focus {
 
 .post-item {
   border: 2px solid #8E9093;
+  width: 100%;
 }
 
 .post-profile-container {
@@ -334,7 +339,8 @@ a:hover, a:active, a:focus {
 .uploaded-homework-button {
   flex-shrink: 1;
   align-self: center;
-  width: 100%;
+  width: 65%;
+  margin: 7%;
 }
 
 /* * * *
@@ -344,12 +350,12 @@ class-search .searchform {
   display: flex;
   height: 125px;
   border-bottom: 1px solid #F1F6FE;
-  color: #053594;;;;
+  color: #053594;
 }
 
 class-search .title {
   color: #053594;
-  padding: 2% 2% 2% 0%;;
+  padding: 2% 2% 2% 0%;
 }
 
 .searchform select:first-child {
@@ -389,7 +395,7 @@ class-search .subtitle {
   justify-content: center;
   align-items: center;
   color: #053594;
-  margin-top: 35px;;
+  margin-top: 35px;
 }
 
 /* * * *
@@ -401,7 +407,7 @@ class-list .wrapper {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #053594;;
+  color: #053594;
 }
 
 class-list li {
@@ -411,13 +417,13 @@ class-list li {
   height: 90px;
   border: 1px solid #979797;
   padding: 2%;
-  justify-content: space-between;;;;
+  justify-content: space-between;
 }
 
 class-list li .curse-name {
   font-size: 2rem;
   margin-right: 7%;
-  align-items: flex-start;;
+  align-items: flex-start;
 }
 
 class-list li .curse-teacher {
@@ -442,7 +448,7 @@ notes {
 
 notes .title {
   color: #053594;
-  padding: 2% 2% 2% 0%;;
+  padding: 2% 2% 2% 0%;
 }
 
 notes select {
@@ -473,12 +479,12 @@ notes .subtitle {
 notes .notes-curses {
   display: flex;
   flex-direction: row;
-  padding: 3%;;
+  padding: 3%;
 }
 
 notes .notes-curse {
   width: 20%;
-  margin: 2%;;
+  margin: 2%;
 }
 
 notes .notes-curses:first-child {
@@ -493,5 +499,5 @@ notes .notes-curse__title {
   justify-content: center;
   align-items: center;
   background-color: #F1F6FE;
-  margin: 2% 2% 10% 2%;;;;;
+  margin: 2% 2% 10% 2%;
 }
