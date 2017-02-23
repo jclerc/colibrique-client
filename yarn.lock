@@ -104,6 +104,14 @@ angular-in-memory-web-api@~0.2.4:
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/angular-in-memory-web-api/-/angular-in-memory-web-api-0.2.4.tgz#313c92545c23dbd051178185602ee16313e94a58"
 
+angular-oauth2-oidc@^1.0.20:
+  version "1.0.20"
+  resolved "https://registry.yarnpkg.com/angular-oauth2-oidc/-/angular-oauth2-oidc-1.0.20.tgz#9b82944e2215c4efc95a223d318b85443948b641"
+  dependencies:
+    base64-js "^1.2.0"
+    js-base64 "^2.1.9"
+    sha256 "^0.2.0"
+
 ansi-regex@^0.2.0, ansi-regex@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-0.2.1.tgz#0d8e946967a3d8143f93e24e298525fc1b2235f9"
@@ -221,6 +229,10 @@ balanced-match@^0.4.1:
 base64-arraybuffer@0.1.5:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/base64-arraybuffer/-/base64-arraybuffer-0.1.5.tgz#73926771923b5a19747ad666aa5cd4bf9c6e9ce8"
+
+base64-js@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.2.0.tgz#a39992d723584811982be5e290bb6a53d86700f1"
 
 base64id@0.1.0:
   version "0.1.0"
@@ -559,6 +571,14 @@ console-control-strings@^1.0.0, console-control-strings@~1.1.0:
 content-type@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/content-type/-/content-type-1.0.2.tgz#b7d113aee7a8dd27bd21133c4dc2529df1721eed"
+
+convert-hex@~0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/convert-hex/-/convert-hex-0.1.0.tgz#08c04568922c27776b8a2e81a95d393362ea0b65"
+
+convert-string@~0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/convert-string/-/convert-string-0.1.0.tgz#79ce41a9bb0d03bcf72cdc6a8f3c56fbbc64410a"
 
 cookie@0.3.1:
   version "0.3.1"
@@ -1364,6 +1384,10 @@ jodid25519@^1.0.0:
   dependencies:
     jsbn "~0.1.0"
 
+js-base64@^2.1.9:
+  version "2.1.9"
+  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.1.9.tgz#f0e80ae039a4bd654b5f281fc93f04a914a7fcce"
+
 jsbn@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
@@ -1523,11 +1547,7 @@ log4js@^0.6.31:
     readable-stream "~1.0.2"
     semver "~4.3.3"
 
-lru-cache@2:
-  version "2.7.3"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-2.7.3.tgz#6d4524e8b955f95d4f5b58851ce21dd72fb4e952"
-
-lru-cache@2.2.x:
+lru-cache@2, lru-cache@2.2.x:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-2.2.4.tgz#6c658619becf14031d0d0b594b16042ce4dc063d"
 
@@ -2188,6 +2208,13 @@ set-immediate-shim@^1.0.1:
 setprototypeof@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.0.2.tgz#81a552141ec104b88e89ce383103ad5c66564d08"
+
+sha256@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/sha256/-/sha256-0.2.0.tgz#73a0b418daab7035bff86e8491e363412fc2ab05"
+  dependencies:
+    convert-hex "~0.1.0"
+    convert-string "~0.1.0"
 
 sigmund@~1.0.0:
   version "1.0.1"

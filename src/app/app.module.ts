@@ -2,6 +2,7 @@ import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule }   from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
+import { HttpModule }    from '@angular/http';
 
 import { AppComponent }  from './app.component';
 import { LoginComponent }  from './login.component';
@@ -23,21 +24,16 @@ import { CalendarDayComponent }  from './calendar-day.component';
 import { UploadHomeworkComponent }  from './upload-homework.component';
 import { UploadedHomeworkComponent }  from './uploaded-homework.component';
 
+import { CanActivateViaOAuthGuard } from './oAuth.canActivateGuard';
 
 const appRoutes: Routes = [
   { path: 'login', component: LoginComponent },
-  { path: 'home', component: HomeComponent },
-  { path: 'cours', component: ClassComponent },
-  { path: 'planning', component: PlanningComponent },
-  { path: 'homework', component: HomeworkComponent },
-  { path: 'notes', component: NotesComponent },
-  { path: 'messaging', component: MessagingComponent },
-  // { path: 'hero/:id',      component: HeroDetailComponent },
-  {
-    path: 'login',
-    component: LoginComponent,
-    data: { title: 'Login' }
-  },
+  { path: 'home', component: HomeComponent, canActivate : [CanActivateViaOAuthGuard] },
+  { path: 'cours', component: ClassComponent, canActivate : [CanActivateViaOAuthGuard] },
+  { path: 'planning', component: PlanningComponent, canActivate : [CanActivateViaOAuthGuard] },
+  { path: 'homework', component: HomeworkComponent, canActivate : [CanActivateViaOAuthGuard] },
+  { path: 'notes', component: NotesComponent, canActivate : [CanActivateViaOAuthGuard] },
+  { path: 'messaging', component: MessagingComponent, canActivate : [CanActivateViaOAuthGuard] },
   { path: '',
     redirectTo: '/login',
     pathMatch: 'full'
@@ -46,10 +42,14 @@ const appRoutes: Routes = [
 ];
 
 @NgModule({
+  providers: [
+    CanActivateViaOAuthGuard
+  ],
   imports: [
     BrowserModule,
     FormsModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    HttpModule
   ],
   declarations: [
     AppComponent,
