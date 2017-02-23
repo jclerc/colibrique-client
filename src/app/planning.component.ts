@@ -4,6 +4,8 @@ import { Component } from '@angular/core';
   selector: 'planning',
   template: `
     <navigation></navigation>
+    <calendar>
+    </calendar>
     `
 })
 
