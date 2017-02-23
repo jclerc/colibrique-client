@@ -3,8 +3,22 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'class-search',
   template: `
-      <div>test</div>
-    `
+  <div>Accéder aux cours</div>
+  <div class="searchform">
+  <select>
+  <option value="2016">2016-2017</option>
+  <option value="2015">2015-2016</option>
+  <option value="2014">2014-2015</option>
+  </select>
+  <select>
+  <option value="1">Trimestre 1</option>
+  <option value="2">Trimestre 2</option>
+  <option value="3">Trimestre 3</option>
+  </select>
+  <button>Rechercher</button>
+  </div>
+
+  `
 })
 
 export class ClassSearchComponent {

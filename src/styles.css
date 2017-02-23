@@ -319,3 +319,39 @@ a:hover, a:active, a:focus {
 .post-homework-picture {
   background-color: black;
 }
+
+/* * * *
+* CLASS LIST
+* * * */
+class-search .searchform {
+  display: flex;;
+}
+
+.searchform select:first-child {
+  width: 20%;
+  margin-left: 0;;;
+}
+
+.searchform select:nth-child(2) {
+  width: 40%;
+}
+
+.searchform select {
+    margin: 3%;
+    border: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    height: 90px;;
+    background: url(http://cdn-6.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #F1F6FE;
+    background-position-x: 90%!important;
+    padding-left: 6%;;
+  
+}
+
+.searchform button {
+    margin: 3%;
+    border: none;
+    background-color: #4070FF;width: 23%;
+    color: white;
+
+}
