@@ -8,10 +8,21 @@ import { LoginComponent }  from './login.component';
 import { NavigationComponent }  from './navigation.component';
 import { PostAnnonceComponent }  from './post-annonce.component';
 import { HomeComponent }  from './home.component';
+import { PostComponent }  from './post.component';
+import { ClassComponent }  from './class.component';
+import { PlanningComponent }  from './planning.component';
+import { HomeworkComponent }  from './homework.component';
+import { NotesComponent }  from './notes.component';
+import { MessagingComponent }  from './messaging.component';
 
 const appRoutes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'home', component: HomeComponent },
+  { path: 'cours', component: ClassComponent },
+  { path: 'planning', component: PlanningComponent },
+  { path: 'homework', component: HomeworkComponent },
+  { path: 'notes', component: NotesComponent },
+  { path: 'messaging', component: MessagingComponent },
   // { path: 'hero/:id',      component: HeroDetailComponent },
   {
     path: 'login',
@@ -36,7 +47,13 @@ const appRoutes: Routes = [
     LoginComponent,
     HomeComponent,
     NavigationComponent,
-    PostAnnonceComponent
+    PostAnnonceComponent,
+    PostComponent,
+    ClassComponent,
+    PlanningComponent,
+    HomeworkComponent,
+    NotesComponent,
+    MessagingComponent
   ],
   bootstrap: [ AppComponent ]
 })

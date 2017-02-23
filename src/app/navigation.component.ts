@@ -5,11 +5,11 @@ import { Component } from '@angular/core';
   template: `
     <nav class="navigation">
       <a class="navigation-logo" routerLink="/home" routerLinkActive="active">colibrique <span class="navigation-logo-special">v2</span></a>
-      <a class="navigation-link" routerLink="/home" routerLinkActive="active">Cours</a>
-      <a class="navigation-link" routerLink="/home" routerLinkActive="active">Planning</a>
-      <a class="navigation-link" routerLink="/home" routerLinkActive="active">Devoirs</a>
-      <a class="navigation-link" routerLink="/home" routerLinkActive="active">Messagerie</a>
-      <a class="navigation-link" routerLink="/home" routerLinkActive="active">Notes</a>
+      <a class="navigation-link" routerLink="/cours" routerLinkActive="active">Cours</a>
+      <a class="navigation-link" routerLink="/planning" routerLinkActive="active">Planning</a>
+      <a class="navigation-link" routerLink="/homework" routerLinkActive="active">Devoirs</a>
+      <a class="navigation-link" routerLink="/messaging" routerLinkActive="active">Messagerie</a>
+      <a class="navigation-link" routerLink="/notes" routerLinkActive="active">Notes</a>
       <div class="navigation__profile">
         <a routerLink="/home" routerLinkActive="active">
             <div class="navigation__profile-picture"></div>
