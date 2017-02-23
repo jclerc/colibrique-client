@@ -3,7 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'class-search',
   template: `
-  <div>Accéder aux cours</div>
+  <div class="wrapper">
+  <div class="title">Accéder aux cours</div>
   <div class="searchform">
   <select>
   <option value="2016">2016-2017</option>
@@ -17,7 +18,8 @@ import { Component } from '@angular/core';
   </select>
   <button>Rechercher</button>
   </div>
-
+  <div class="subtitle">Liste des cours du Trimestre 2 - Année 2016 - 2017</div>
+  </div>
   `
 })
 

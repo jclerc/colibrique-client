@@ -1,11 +1,11 @@
 @font-face {
-    font-family: Tungsten_sb;
-    src: url(fonts/Tungsten-SB.otf);
+  font-family: Tungsten_sb;
+  src: url(fonts/Tungsten-SB.otf);
 }
 
 @font-face {
-    font-family: Tungsten_m;
-    src: url(fonts/Tungsten-M.otf);
+  font-family: Tungsten_m;
+  src: url(fonts/Tungsten-M.otf);
 }
 
 h1 {
@@ -104,14 +104,14 @@ a:hover, a:active, a:focus {
 /*NAVIGATION*/
 
 .navigation {
-  display: flex;
   flex-direction: row;
   margin-top: 20px;
   border-bottom: 1px solid #F1F6FE;
+  display: flex;;;;;;;;
 }
 
 .navigation-logo {
-  margin-right: 200px;
+  margin-right: 100px;
   font-size: 60px;
   font-family: Tungsten_sb;
   color: #053594;
@@ -128,9 +128,9 @@ a:hover, a:active, a:focus {
 }
 
 .navigation__profile {
-  display: flex;
-  flex-direction: row;
   margin-left: auto;
+  display: flex;
+  flex-direction: row;;;
 }
 
 .navigation__profile-picture {
@@ -321,15 +321,23 @@ a:hover, a:active, a:focus {
 }
 
 /* * * *
-* CLASS LIST
+* CLASS SEARCH
 * * * */
 class-search .searchform {
-  display: flex;;
+  display: flex;
+  height: 125px;
+  border-bottom: 1px solid #F1F6FE;
+  color: #053594;;;;
+}
+
+class-search .title {
+  color: #053594;
+  padding: 2% 2% 2% 0%;;
 }
 
 .searchform select:first-child {
   width: 20%;
-  margin-left: 0;;;
+  margin-left: 0;
 }
 
 .searchform select:nth-child(2) {
@@ -337,21 +345,101 @@ class-search .searchform {
 }
 
 .searchform select {
-    margin: 3%;
-    border: none;
-    border-radius: 0;
-    -webkit-appearance: none;
-    height: 90px;;
-    background: url(http://cdn-6.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #F1F6FE;
-    background-position-x: 90%!important;
-    padding-left: 6%;;
-  
+  margin: 0% 3% 0% 3%;
+  border: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  height: 90px;
+  background: url(http://cdn-6.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #F1F6FE;
+  background-position-x: 90%!important;
+  padding-left: 6%;
 }
 
 .searchform button {
-    margin: 3%;
-    border: none;
-    background-color: #4070FF;width: 23%;
-    color: white;
+  border: none;
+  background-color: #4070FF;
+  width: 23%;
+  color: white;
+  margin: 0 3% 0% 3%;
+  height: 90px;
+}
 
+class-search .subtitle {
+  width: 100%;
+  background-color: #F1F6FE;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #053594;
+  margin-top: 35px;;
+}
+
+/* * * *
+* CLASS LIST
+* * * */
+class-list .wrapper {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #053594;;
+}
+
+class-list li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 90px;
+  border: 1px solid #979797;
+  padding: 2%;
+  justify-content: space-between;;;;
+}
+
+class-list li .curse-name {
+  font-size: 2rem;
+  margin-right: 7%;
+  align-items: flex-start;;
+}
+
+class-list li .curse-teacher {
+  margin-right: 39%;
+} 
+
+class-list button {
+  border: none;
+  background-color: #4070FF;
+  width: 15%;
+  color: white;
+  margin: 0 3% 0% 3%;
+  height: 60px;
+}
+
+/* * * *
+* NOTES
+* * * */
+notes .title {
+  color: #053594;
+  padding: 2% 2% 2% 0%;;
+}
+
+notes select {
+  margin: 0% 3% 0% 3%;
+  border: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  height: 90px;
+  background: url(http://cdn-6.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #F1F6FE;
+  background-position-x: 90%!important;
+  padding-left: 6%;
+}
+
+notes button {
+  border: none;
+  background-color: #4070FF;
+  width: 15%;
+  color: white;
+  margin: 0 3% 0% 3%;
+  height: 60px;
 }
