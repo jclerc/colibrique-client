@@ -425,7 +425,6 @@ notes .title {
 }
 
 notes select {
-  margin: 0% 3% 0% 3%;
   border: none;
   border-radius: 0;
   -webkit-appearance: none;
@@ -433,13 +432,29 @@ notes select {
   background: url(http://cdn-6.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #F1F6FE;
   background-position-x: 90%!important;
   padding-left: 6%;
+  width: 30%;
+  margin: 0% 3% 2% 0%;
 }
 
 notes button {
   border: none;
   background-color: #4070FF;
-  width: 15%;
+  width: 25%;
   color: white;
-  margin: 0 3% 0% 3%;
   height: 60px;
+}
+
+notes .subtitle {
+  color: #053594;
+  margin: 3% 0% 0% 0%;
+}
+
+notes .notes-curses {
+  display: flex;
+  flex-direction: row;
+  padding: 3%;;
+}
+
+notes .notes-curse {
+  width: 20%;
 }
