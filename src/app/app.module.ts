@@ -18,6 +18,11 @@ import { PostHomeworkComponent }  from './post-homework.component';
 import { PostEventComponent }  from './post-event.component';
 import { ClassSearchComponent }  from './class-search.component';
 import { ClassListComponent }  from './class-list.component';
+import { CalendarComponent }  from './calendar.component';
+import { CalendarDayComponent }  from './calendar-day.component';
+import { UploadHomeworkComponent }  from './upload-homework.component';
+import { UploadedHomeworkComponent }  from './uploaded-homework.component';
+
 
 const appRoutes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -61,7 +66,11 @@ const appRoutes: Routes = [
     PostHomeworkComponent,
     PostEventComponent,
     ClassSearchComponent,
-    ClassListComponent
+    ClassListComponent,
+    CalendarComponent,
+    CalendarDayComponent,
+    UploadHomeworkComponent,
+    UploadedHomeworkComponent
   ],
   bootstrap: [ AppComponent ]
 })
