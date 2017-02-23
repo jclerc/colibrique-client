@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {Http, Headers} from '@angular/http';
+import { Observable } from 'rxjs/Rx';
 
 @Component({
   selector: 'post',
@@ -38,4 +40,28 @@ import { Component } from '@angular/core';
 })
 
 export class PostComponent {
+
+  constructor(public http: Http) {
+
+    const headers = new Headers();
+    headers.append('Authorization', 'Bearer ' + localStorage.getItem('token'));
+
+    this.http.get('http://localhost:8000/api/v1/posts', {
+      headers
+    }).map(res => {
+      let body = res.json();
+      return body;
+    }).catch((error: any) => {
+      let errMsg = (error.message) ? error.message :
+      error.status ? `${error.status} - ${error.statusText}` : 'Server error';
+      console.error(errMsg); // log to console instead
+      return Observable.throw('Mauvais identifiants');
+    }).subscribe(
+      data => console.log('success', data),
+      err => console.error('error', err),
+      () => console.log('Request /posts complete')
+    );
+
+  }
+
 }

@@ -9,7 +9,7 @@ export class LoginService {
 
   constructor(public http: Http) {}
 
-  login(username, password) : Observable {
+  login(username: string, password:string) : Observable<any> {
 
     var creds = 'grant_type=password&'
         + 'client_id=1_1beg32t1wqo00wko4gc44gsw8cws800wk0ogscowk0gcc8kws4'

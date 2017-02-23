@@ -27,19 +27,19 @@ import { LoginService } from './login.service';
 
 export class LoginComponent {
 
-  username = null;
-  password = null;
+  username: string = null;
+  password: string = null;
 
   constructor(public router: Router, private loginService: LoginService) {}
 
   onSubmit() {
     this.loginService.login(this.username, this.password)
      .subscribe(
-       response => {
+       (response: any) => {
         localStorage.setItem('token', response.access_token);
         this.router.navigateByUrl('/home');
        },
-       error => {
+       (error: any) => {
         alert(error);
        }
      );
