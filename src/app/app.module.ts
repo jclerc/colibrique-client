@@ -16,6 +16,8 @@ import { NotesComponent }  from './notes.component';
 import { MessagingComponent }  from './messaging.component';
 import { PostHomeworkComponent }  from './post-homework.component';
 import { PostEventComponent }  from './post-event.component';
+import { ClassSearchComponent }  from './class-search.component';
+import { ClassListComponent }  from './class-list.component';
 
 const appRoutes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -57,7 +59,9 @@ const appRoutes: Routes = [
     NotesComponent,
     MessagingComponent,
     PostHomeworkComponent,
-    PostEventComponent
+    PostEventComponent,
+    ClassSearchComponent,
+    ClassListComponent
   ],
   bootstrap: [ AppComponent ]
 })
