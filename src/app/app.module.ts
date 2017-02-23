@@ -20,6 +20,8 @@ import { ClassSearchComponent }  from './class-search.component';
 import { ClassListComponent }  from './class-list.component';
 import { CalendarComponent }  from './calendar.component';
 import { CalendarDayComponent }  from './calendar-day.component';
+import { UploadHomeworkComponent }  from './upload-homework.component';
+import { UploadedHomeworkComponent }  from './uploaded-homework.component';
 
 
 const appRoutes: Routes = [
@@ -66,7 +68,9 @@ const appRoutes: Routes = [
     ClassSearchComponent,
     ClassListComponent,
     CalendarComponent,
-    CalendarDayComponent
+    CalendarDayComponent,
+    UploadHomeworkComponent,
+    UploadedHomeworkComponent
   ],
   bootstrap: [ AppComponent ]
 })

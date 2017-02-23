@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'homework',
   template: `
     <navigation></navigation>
+    <upload-homework></upload-homework>
     `
 })
 
