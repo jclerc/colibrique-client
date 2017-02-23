@@ -419,6 +419,10 @@ class-list button {
 /* * * *
 * NOTES
 * * * */
+notes {
+  color: #053594;
+}
+
 notes .title {
   color: #053594;
   padding: 2% 2% 2% 0%;;
@@ -457,4 +461,21 @@ notes .notes-curses {
 
 notes .notes-curse {
   width: 20%;
+  margin: 2%;;
+}
+
+notes .notes-curses:first-child {
+  margin: 2% 2% 2% 0;
+}
+
+notes .notes-curse__title {
+  font-size: 1.7rem;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F1F6FE;
+  margin: 2% 2% 10% 2%;;;;;
+
 }
