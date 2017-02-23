@@ -279,3 +279,15 @@ a:hover, a:active, a:focus {
   color: #8E9093;
   padding-top: 3px;
 }
+
+.post-comment-hidenshow {
+  margin-top: 20px;
+}
+.post-comment-list {
+  display: flex;
+  padding: 40px;
+}
+
+.post-item-comment-content {
+  padding: 0px 40px;
+}
