@@ -30,7 +30,7 @@ import { Component } from '@angular/core';
                <p class="post-profile-date">14 Février - 16h01 - Montreuil, Île de France</p>
              </div>
          </div>
-         <div class="post-item-comment-content ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore asperiores expedita, sequi illo aperiam veritatis similique modi ipsam quia ab quaerat ipsum assumenda aliquam laudantium alias voluptatem blanditiis dicta rerum.</div>
+         <div class="post-item-comment-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore asperiores expedita, sequi illo aperiam veritatis similique modi ipsam quia ab quaerat ipsum assumenda aliquam laudantium alias voluptatem blanditiis dicta rerum.</div>
       </div>
       <div class="post-old"></div>
      </div>

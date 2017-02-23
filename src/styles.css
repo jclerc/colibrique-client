@@ -217,7 +217,8 @@ a:hover, a:active, a:focus {
   background-color: #4070FF;
   color: white;
   border: none;
-  padding: 20px 80px;
+  width: 220px;
+  height: 60px;
 }
 
 .post-annonce-category-container {
@@ -318,4 +319,20 @@ a:hover, a:active, a:focus {
 
 .post-homework-picture {
   background-color: black;
+}
+
+.uploaded-legend-modifier {
+  margin-top: 40px;
+}
+
+.uploaded-homework-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.uploaded-homework-button {
+  flex-shrink: 1;
+  align-self: center;
+  width: 100%;
 }
