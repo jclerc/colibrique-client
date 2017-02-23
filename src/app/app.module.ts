@@ -15,6 +15,7 @@ import { HomeworkComponent }  from './homework.component';
 import { NotesComponent }  from './notes.component';
 import { MessagingComponent }  from './messaging.component';
 import { PostHomeworkComponent }  from './post-homework.component';
+import { PostEventComponent }  from './post-event.component';
 
 const appRoutes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -55,7 +56,8 @@ const appRoutes: Routes = [
     HomeworkComponent,
     NotesComponent,
     MessagingComponent,
-    PostHomeworkComponent
+    PostHomeworkComponent,
+    PostEventComponent
   ],
   bootstrap: [ AppComponent ]
 })

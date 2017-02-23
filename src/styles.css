@@ -232,13 +232,16 @@ a:hover, a:active, a:focus {
   align-items: flex-start;
 }
 
+.news-homeworknevent {
+  flex-grow: 1;
+}
+
 /* POSTS */
 
 .post-container {
   color: #053594;
   padding: 10px 0;
   margin-right: 100px;
-  flex-grow: 1;
 }
 
 .post-recent-legend {
