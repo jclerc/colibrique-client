@@ -1,19 +1,44 @@
-# Colibrique
+<h1 align="center">
+  <img alt="colibrique-client" width="652" src="https://jclerc.github.io/assets/repos/banner/colibrique-client.jpg">
+  <br>
+</h1>
 
-Web Client for **[T14_Colibrique_Server](https://github.com/JClerc/T14_Colibrique_Server)**
+<p align="center">
+  <img alt="made for: school" src="https://jclerc.github.io/assets/static/badges/made-for/school.svg">
+  <img alt="language: javascript" src="https://jclerc.github.io/assets/static/badges/language/javascript.svg">
+  <img alt="made in: 2017" src="https://jclerc.github.io/assets/static/badges/made-in/2017.svg">
+  <br>
+  <sub>A platform to help students & teachers in their daily tasks.</sub>
+</p>
+<br>
 
-## Installation
+> **Note** \
+> This is rather a prototype than a functional project.
 
-First, get the project files:
+## Features
+
+- [x] Hook into backend API
+- [x] Authentication
+- [x] Browse feed
+- [ ] Add content
+
+## Stack used
+
+- Angular `2.4.0`
+- TypeScript `2.0.10`
+- JavaScript `ES6`
+
+## Getting started
+
+#### Requirements
+
+- `yarn` (or `npm`)
+
+#### Installation
+
 ```sh
-git clone https://github.com/JClerc/T14_Colibrique_Angular.git
-cd T14_Colibrique_Angular
-yarn
+git clone https://github.com/jclerc/colibrique-client.git
+cd colibrique-client
+yarn # or `npm i`
+yarn start # or `npm start`
 ```
-
-Then, start development server:
-```sh
-yarn start
-```
-
-If you haven't installed yarn, use `brew install yarn`.
