@@ -1,5 +1,5 @@
 {
-  "name": "T14_Colibrique_Angular",
+  "name": "colibrique-client",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "dependencies": {
     "@angular/common": "~2.4.0",
     "@angular/compiler": "~2.4.0",
